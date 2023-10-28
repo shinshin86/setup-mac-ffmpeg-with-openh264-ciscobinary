@@ -1,0 +1,4 @@
+ffmpeg/
+
+# mac
+.DS_Store
