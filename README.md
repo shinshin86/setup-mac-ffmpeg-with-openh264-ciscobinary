@@ -15,6 +15,10 @@ sudo cp /usr/local/lib/libopenh264.dylib /usr/local/lib/libopenh264.7.dylib
 
 Uninstall `ffmpeg`
 
+notes:  
+Although uninstall.sh has been tested, unnecessary deletions may occur.
+Please confirm the deletions before executing.
+
 ```sh
 sudo bash uninstall.sh
 ```
