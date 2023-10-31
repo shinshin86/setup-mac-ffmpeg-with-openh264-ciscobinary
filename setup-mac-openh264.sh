@@ -39,6 +39,9 @@ make
 sudo make install
 cd ..
 
+# It seems that dylib must be named libopenh264.7.dylib
+sudo mv /usr/local/lib/libopenh264.dylib /usr/local/lib/libopenh264.7.dylib
+
 echo "OpenH264 setup complete!"
 echo "Try running this command to make sure it was set up correctly!"
 echo "========================"

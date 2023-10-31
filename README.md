@@ -8,9 +8,6 @@ Install
 
 ```sh
 bash setup-mac-openh264.sh
-
-# After the command is complete, you will need to execute the following additional commands
-sudo cp /usr/local/lib/libopenh264.dylib /usr/local/lib/libopenh264.7.dylib
 ```
 
 Uninstall `ffmpeg`
